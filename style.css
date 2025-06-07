@@ -1,0 +1,71 @@
+/* === Core style === */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* === header === */
+.header {
+  background-color: #74c69d;
+
+  padding: 10px 50px;
+}
+.header__menu {
+  list-style-type: none;
+}
+.header__item {
+  display: inline-block;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+  margin-left: 15px;
+}
+
+/* === welcome ===*/
+.welcome {
+  background-color: #74c69d;
+  padding: 50px 0;
+  color: white;
+}
+.welcome__left {
+  width: 35%;
+}
+.welcome__subtitle {
+  margin: 15px 0;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.welcome__title {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.welcome__text {
+  color: whitesmoke;
+  margin: 20px 0;
+  line-height: 20px;
+}
+
+.welcome__btn {
+  width: 170px;
+  height: 48px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 17px;
+}
+.welcome__rightimg {
+  height: 375px;
+}
